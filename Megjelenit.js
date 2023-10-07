@@ -3,7 +3,7 @@ class ListaMegjelenit {
     this.KULCS = KULCS;
     this.LISTA = LISTA;
     this.szuloElem = szuloElem;
-    let txt = this.htmlOsszeallit(KULCS, LISTA);
+    let txt = this.htmlOsszeallit();
     this.szuloElem.html(txt);
   }
 
